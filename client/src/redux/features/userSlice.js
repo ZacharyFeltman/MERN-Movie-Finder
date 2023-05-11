@@ -32,11 +32,7 @@ export const userSlice = createSlice({
   },
 });
 
-export const {
-    setUser,
-    setListFavorites,
-    addFavorites,
-    removeFavorites
-} = userSlice.actions
+export const { setUser, setListFavorites, addFavorites, removeFavorites } =
+  userSlice.actions;
 
-export default userSlice.reducer
+export default userSlice.reducer;
